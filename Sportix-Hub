@@ -203,6 +203,14 @@ Tab:AddButton({
   	end   
 
 })
+Tab:AddButton({
+	Name = "Project Y Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WolfcutLatinas/StallingSecurity/main/Project%20Y%20Returns"))()
+      		print("button pressed")
+  	end    
+
+})
 local Section = Tab:AddSection({
 	Name = "Murder Mystery 2 Scripts"
 })
