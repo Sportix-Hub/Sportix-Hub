@@ -43,7 +43,11 @@ __function(__function)
 Tab:AddButton({
 	Name = "Infinix Hub New",
 	Callback = function()
-loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/download/1.0.0/main.lua",true))()
+--```lua
+local __function = loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua", true))
+
+__function(__function)
+--```
       		print("button pressed")
   	end    
 
