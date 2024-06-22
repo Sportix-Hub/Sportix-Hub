@@ -217,6 +217,14 @@ Tab:AddButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/datshort1/DatModV6/main/Main"))()
       		print("button pressed")
   	end    
+
+})
+Tab:AddButton({
+	Name = "Blade bole",
+	Callback = function()
+loadstring(game:HttpGet("https://paste.gg/p/anonymous/09aa7f4e37454119ac398fa9e5ddedd9/files/b1f5d2d6ab284565ae6c536c3080ef88/raw"))()
+      		print("button pressed")
+  	end    
 })
 local Section = Tab:AddSection({
 	Name = "Murder Mystery 2 Scripts"
