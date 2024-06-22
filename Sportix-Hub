@@ -40,6 +40,14 @@ __function(__function)
   	end
   
   })
+Tab:AddButton({
+	Name = "Infinix Hub New",
+	Callback = function()
+loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/download/1.0.0/main.lua",true))()
+      		print("button pressed")
+  	end    
+
+})
   Tab:AddButton({
 	Name = "Rac Hub (Patched)",
 	Callback = function()
