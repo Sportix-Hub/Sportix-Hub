@@ -214,10 +214,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/WolfcutLatinas/Stalli
 Tab:AddButton({
 	Name = "Dat mod",
 	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/datshort1/DatModV6/main/AutoParryPro"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/datshort1/DatModV6/main/Main"))()
       		print("button pressed")
   	end    
-
 })
 local Section = Tab:AddSection({
 	Name = "Murder Mystery 2 Scripts"
