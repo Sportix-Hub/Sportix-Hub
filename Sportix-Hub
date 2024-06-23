@@ -238,6 +238,14 @@ loadstring(game:HttpGet("https://paste.gg/p/anonymous/09aa7f4e37454119ac398fa9e5
       		print("button pressed")
   	end    
 })
+Tab:AddButton({
+	Name = "Triple Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconScriptHub/SuperBestScript/main/BestScript.lua.txt"))()
+      		print("button pressed")
+  	end    
+
+})
 local Section = Tab:AddSection({
 	Name = "Murder Mystery 2 Scripts"
 })
