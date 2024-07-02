@@ -246,6 +246,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconScriptHub/SuperB
   	end    
 
 })
+Tab:AddButton({
+	Name = "Pitbull Hub",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyAdriYT/PitbullHub--/main/Destroyer", true))()
+      		print("button pressed")
+  	end    
+  
+})
 local Section = Tab:AddSection({
 	Name = "Murder Mystery 2 Scripts"
 })
